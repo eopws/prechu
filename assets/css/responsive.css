@@ -1,0 +1,168 @@
+@media screen and (max-width: 950px) {
+	.banner-slider .item figure {
+		width: 90%;
+	}
+
+	.banner-slider-arrow {
+		display: none!important;
+	}
+
+	.top-bar .desktop-menu {
+		display: none;
+	}
+
+	.top-bar .mobile-menu {
+		background: url(../img/mobile-menu.png) center center no-repeat;
+		position: absolute;
+		margin-top: -23px;
+		display: block;
+		height: 45px;
+		width: 58px;
+		top: 50%;
+		right: 0;
+	}
+
+	/** product (main cart)
+	------------------------- **/
+
+	.product {
+		flex-direction: column;
+	}
+
+	.product .image {
+		width: 100%;
+	}
+
+	.product .image img {
+		margin: 35px auto 0;
+		max-width: 100%;
+	}
+
+	.product .text {
+		margin-top: 15px;
+		padding: 0;
+	}
+
+	.product .text p {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.top-bar {
+		padding: 0 3.5%;
+	}
+
+	.top-bar .logo {
+		width: 80%;
+	}
+
+	.top-bar .menu {
+		width: 20%;
+	}
+
+	.banner-slider {
+		padding-top: 0;
+		height: 246px;
+	}
+
+	.banner-slider .slider-image {
+		height: 350px;
+	}
+
+	.banner-slider::after {
+		display: none;
+	}
+
+	.banner-slider .item figure figcaption,
+	.banner-slider .item figure {
+		height: 246px;
+	}
+
+	.banner-slider .item .info {
+		margin-top: 40%;
+	}
+
+	.banner-slider .item .info h3 {
+		font-size: 18px;
+	}
+
+	.banner-slider .item .info p {
+		line-height: 1.25;
+		font-size: 14px;
+	}
+
+	.banner-slider .item .info .sign-up-button {
+		font-size: 12px;
+	}
+
+	.banner-slider .slider-image {
+		height: 215px;
+	}
+
+	/** advertising (company skills)
+	------------------------- **/
+
+	.advertising {
+		flex-direction: column;
+		padding-top: 10px;
+	}
+
+	.advertising .skill {
+		border-bottom: 1px solid #CCCCCC;
+		padding: 22px 5% 13px;
+		text-align: left;
+		flex: 0 0 100%;
+		font-size: 0;
+	}
+
+	.advertising .skill-val {
+		margin-left: 15px;
+	}
+
+	.advertising .skill-image-wrapper {
+		display: inline-block;
+		height: 50%;
+		width: 30%;
+	}
+
+	.advertising .skill .skill-image {
+		height: 100%;
+		width: 100%;
+	}
+
+	.advertising .skill .skill-signature {
+		vertical-align: middle;
+		display: inline-block;
+		width: 70%;
+	}
+
+	.advertising .skill .skill-val {
+		margin-top: 0;
+	}
+}
+
+/** mobile menu styles
+-------------------------**/
+.mobile-menu-title {
+	font-size: 42.35px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-weight: 300;
+	display: block;
+	color: #000;
+}
+
+.mobile-menu-pages {
+	margin: 25px;
+}
+
+.mobile-menu-pages li {
+	box-sizing: border-box;
+	font-size: 20.35px;
+	text-align: center;
+	display: block;
+	color: #1C1F2A;
+	margin: 21px 0;
+	height: 100%;
+}
